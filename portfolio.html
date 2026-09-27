@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Task 4: Portfolio Page - Flexbox navigation -->
+    <header class="header">
+        <a class="logo" href="home.html">
+            <img src="images/logo.png" alt="logo">
+            <span>Aktanbi Kusman</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="home.html#projects">Projects</a>
+            <a href="home.html#gallery">Gallery</a>
+        </nav>
+    </header>
+
+    <!-- Task 4: Grid for projects and information sidebar -->
+    <main class="portfolio-layout">
+        <section class="portfolio-projects">
+            <h1>My Portfolio</h1>
+            <p>Here are some of my projects. Click a project image to visit its GitHub repository.</p>
+
+            <div class="portfolio-grid">
+                <article class="portfolio-card">
+                    <a href="https://github.com/Aqtanbi/AI_Assistant_tgbot" target="_blank" rel="noopener">
+                        <img src="images/aibot.png" alt="AI Bot project">
+                    </a>
+                    <div class="portfolio-card-content">
+                        <h2>AI Bot</h2>
+                        <p>A project related to an AI bot.</p>
+                        <a class="button" href="https://github.com/Aqtanbi/AI_Assistant_tgbot" target="_blank" rel="noopener">GitHub Repository</a>
+                    </div>
+                </article>
+
+                <article class="portfolio-card">
+                    <a href="https://github.com/Aqtanbi/Smart-Schedule-bot" target="_blank" rel="noopener">
+                        <img src="images/Calendar.png" alt="Calendar project">
+                    </a>
+                    <div class="portfolio-card-content">
+                        <h2>Smart-Schedule-Bot</h2>
+                        <p>A Smart-Schedule-Bot project.</p>
+                        <a class="button" href="https://github.com/Aqtanbi/Smart-Schedule-bot" target="_blank" rel="noopener">GitHub Repository</a>
+                    </div>
+                </article>
+
+                <article class="portfolio-card">
+                    <a href="https://github.com/Aqtanbi/restaurant-jdbc" target="_blank" rel="noopener">
+                        <img src="images/jdbc.png" alt="JDBC project">
+                    </a>
+                    <div class="portfolio-card-content">
+                        <h2>JDBC</h2>
+                        <p>A project using JDBC.</p>
+                        <a class="button" href="https://github.com/Aqtanbi/restaurant-jdbc" target="_blank" rel="noopener">GitHub Repository</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <aside class="portfolio-sidebar">
+            <h2>About Me</h2>
+            <img class="profile-image" src="images/image.png" alt="V">
+            <p><strong>Name:</strong> Aktanbi Kusman</p>
+            <p><strong>Study:</strong> Software Engineering</p>
+            <p><strong>University:</strong> Astana IT University</p>
+            <p><strong>Skills:</strong> Java, C++, Python, HTML, CSS, </p>
+            <p><strong>Email:</strong><br>
+                <a href="mailto:kusmanaktanbi08@gmail.com">kusmanaktanbi08@gmail.com</a>
+            </p>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>Aktanbi Kusman| <a href="mailto:kusmanaktanbi08@gmail.com">kusmanaktanbi08@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Task 0: Flexbox Navigation Bar -->
+    <header class="header">
+        <a class="logo" href="home.html">
+            <img src="images/logo.png" alt="logo">
+            <span>Aktanbi Kusman</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="#projects">Projects</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
+
+    <!-- Task 2: CSS Grid Layout with Grid Areas -->
+    <div class="home-layout">
+        <aside class="home-sidebar">
+            <h2>About Me</h2>
+            <p>Hello! My name is Aktanbi. I am a Software Engineering student at Astana IT University.</p>
+            <p>I am learning web development and building projects with HTML and CSS.</p>
+            <p><strong>Email:</strong><br>
+                <a href="mailto:kusmanaktanbi08@gmail.com">kusmanaktanbi08@gmail.com</a>
+            </p>
+            <a class="button" href="portfolio.html">View Portfolio</a>
+        </aside>
+
+        <main class="home-main">
+            <section class="intro">
+                <h1>Welcome to my website</h1>
+                <p>This website presents my projects and demonstrates Flexbox and CSS Grid.</p>
+            </section>
+
+            <!-- Task 1: Flexbox Card Row -->
+            <section id="projects" class="section">
+                <h2>My Projects</h2>
+                <div class="card-row">
+                    <article class="project-card">
+                        <a href="https://github.com/Aqtanbi/AI_Assistant_tgbot" target="_blank" rel="noopener">
+                            <img src="images/aibot.png" alt="AI Bot project">
+                        </a>
+                        <div class="card-content">
+                            <h3>Telegram AI Bot</h3>
+                            <p>A project related to an AI bot. Click the image or button to open its GitHub repository.</p>
+                            <a class="button" href="https://github.com/Aqtanbi/AI_Assistant_tgbot" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="https://github.com/Aqtanbi/Smart-Schedule-bot" target="_blank" rel="noopener">
+                            <img src="images/Calendar.png" alt="Calendar project">
+                        </a>
+                        <div class="card-content">
+                            <h3>Smart-Schedule-bot</h3>
+                            <p>A Smart-Schedule-bot project. Click the image or button to open its GitHub repository.</p>
+                            <a class="button" href="https://github.com/Aqtanbi/Smart-Schedule-bot" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="https://github.com/Aqtanbi/restaurant-jdbc" target="_blank" rel="noopener">
+                            <img src="images/jdbc.png" alt="JDBC project">
+                        </a>
+                        <div class="card-content">
+                            <h3>Restaurant JDBC</h3>
+                            <p>A Restaurant JDBC project. Click the image or button to open its GitHub repository.</p>
+                            <a class="button" href="https://github.com/Aqtanbi/restaurant-jdbc" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Task 3: CSS Grid Image Gallery (9 gallery items) -->
+            <section id="gallery" class="section">
+                <h2>Image Gallery</h2>
+                <p>Wallpapers.</p>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="wallpapers\91809-art-nebo-srednevekovaya_arhitektura-iskusstvo-istoriya-1920x1080.jpg" alt="wallpaper">
+                        <div class="caption">Wallpaper - 1</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wallpapers\enot_zhivotnoe_podvodnyj_1343115_1920x1080.jpg" alt="wallpaper">
+                        <div class="caption">Wallpaper - 2</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wallpapers\gory_ozero_vershiny_119133_1920x1080.jpg" alt="wallpaper">
+                        <div class="caption">Wallpaper - 3</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wallpapers\img1.akspic.ru-nomer_anime-multik-zhivopis-fan_art-art-3840x2160.png" alt="wallpaper">
+                        <div class="caption">Wallpaper - 4</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wallpapers\kod_programmirovanie_tekst_140050_3840x2160.jpg" alt="wallpaper">
+                        <div class="caption">Wallpaper - 5</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wallpapers\lamborghini_mashina_sportkar_146392_1920x1080.jpg" alt="wallpaper">
+                        <div class="caption">Wallpaper - 6</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wallpapers\lamochka_osveshchenie_verevka_130830_1920x1080.jpg" alt="wallpaper">
+                        <div class="caption">Wallpaper - 7</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wallpapers\mclaren_p1_gtr_mclaren_p1_mclaren_128793_1920x1080.jpg" alt="wallpaper">
+                        <div class="caption">Wallpaper - 8</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wallpapers\mercedesbenz_sclass_w222_112850_1920x1080.jpg" alt="wallpaper">
+                        <div class="caption">Wallpaper - 9</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>Aktanbi Kusman | Email: <a href="mailto:kusmanaktanbi08@gmail.com">kusmanaktanbi08@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
